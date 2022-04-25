@@ -16,12 +16,12 @@ export default class Book {
       const bookAuthor = document.createElement('p');
       const remove = document.createElement('button');
       remove.setAttribute('type', 'button');
-      remove.setAttribute('value', this.title);
+      remove.setAttribute('value', this.title+this.author);
       remove.textContent = 'Remove';
       remove.addEventListener('click', (e) => {
         e.target.parentNode.remove();
         const eventValue = e.target.attributes.value.value;
-        Book.booksArray = Book.booksArray.filter((v) => !(v.title === eventValue));
+        Book.booksArray = Book.booksArray.filter((v) => !(v.title+v.author === eventValue));
         localStorage.setItem('books', JSON.stringify(Book.booksArray));
       });
       bookTitle.textContent = this.title;
