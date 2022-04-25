@@ -10,11 +10,27 @@
   .hamburger-button {
     display: flex;
   }
+
+  .add-books {
+    width: 50%
+  }
 }
 
 @media screen and (max-width: 550px) {
+  .logo {
+    font-size: 2rem;
+  }
+
   .date {
     align-self: center;
     margin: 0;
+  }
+
+  section h1 {
+    font-size: 2rem;
+  }
+
+  .add-books {
+    width: 80%
   }
 }
