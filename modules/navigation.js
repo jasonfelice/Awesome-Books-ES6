@@ -1,4 +1,4 @@
-export function navFunction() {
+export default function navFunction() {
 document.querySelector('.list-button').addEventListener('click', () => {
     document.querySelector('#book-list').style.display = 'block';
     document.querySelector('#ADD').style.display = 'none';
