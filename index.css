@@ -120,6 +120,26 @@ section h1 {
   align-self: center;
 }
 
+.message-prompt {
+  align-self: center;
+  display: none;
+  padding: 0 10px;
+  border-radius: 7px;
+  box-shadow: 0 0 10px #00000033;
+}
+
+.error {
+  display: block;
+  color: red;
+  background: beige;
+}
+
+.success {
+  display: block;
+  color: #03c92e;
+  background: beige;
+}
+
 /* Contact */
 
 #contact {
