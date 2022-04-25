@@ -1,4 +1,4 @@
-export default function navFunction() {
+export default () => {
   document.querySelectorAll('.list-button').forEach((button) => {
     button.addEventListener('click', () => {
       document.querySelector('#book-list').style.display = 'block';
@@ -22,4 +22,4 @@ export default function navFunction() {
       document.querySelector('#contact').style.display = 'block';
     });
   });
-}
+};
