@@ -38,6 +38,112 @@ header ul {
   gap: 3rem;
 }
 
+/* Mobile Navigation */
+
+.mobile-nav {
+  display: none;
+}
+
+.hamburger-button {
+  display: none;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.hamburger-button span {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: var(--secondary);
+}
+
+.cross span:nth-child(1) {
+  animation: cross1 0.5s forwards;
+}
+
+.cross span:nth-child(2) {
+  animation: cross2 0.5s forwards;
+}
+
+.cross span:nth-child(3) {
+  animation: cross3 0.5s forwards;
+}
+
+.hamburger span:nth-child(1) {
+  animation: hamburger1 0.5s forwards;
+}
+
+.hamburger span:nth-child(2) {
+  animation: hamburger2 0.5s forwards;
+}
+
+.hamburger span:nth-child(3) {
+  animation: hamburger3 0.5s forwards;
+}
+
+@keyframes cross1 {
+  from {
+    transform: rotate(0) translate(0);
+  }
+
+  to {
+    transform: rotate(45deg) translate(5px, 0px);
+  }
+}
+
+@keyframes cross2 {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes cross3 {
+  from {
+    transform: rotate(0) translate(0);
+  }
+
+  to {
+    transform: rotate(-45deg) translate(7px, -2px);
+  }
+}
+
+@keyframes hamburger1 {
+  from {
+    
+    transform: rotate(45deg) translate(5px, 0px);
+  }
+
+  to {
+    transform: rotate(0) translate(0);
+  }
+}
+
+@keyframes hamburger2 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes hamburger3 {
+  from {
+    transform: rotate(-45deg) translate(7px, -2px);
+  }
+
+  to {
+    transform: rotate(0) translate(0);
+  }
+}
+
+/* Mobile Navigation Ends */
+
 .desktop-nav a {
   color: var(--secondary);
   font-size: 1.1rem;

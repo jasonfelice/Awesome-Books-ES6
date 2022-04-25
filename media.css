@@ -1,0 +1,20 @@
+@media screen and (max-width: 767px) {
+  header {
+    padding: 0.2rem 2rem;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .hamburger-button {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .date {
+    align-self: center;
+    margin: 0;
+  }
+}
