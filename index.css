@@ -116,8 +116,20 @@ section h1 {
   gap: 1rem;
 }
 
+.add-books input {
+  padding: 10px 20px;
+}
+
 .add-books button {
   align-self: center;
+  padding: 4px 2rem;
+  background: var(--supporting);
+  border: 1px solid black;
+  font-size: 1rem;
+}
+
+.add-books button:active {
+  border: 1px solid grey;
 }
 
 .message-prompt {
