@@ -83,7 +83,7 @@ header ul {
   }
 
   to {
-    transform: rotate(45deg) translate(5px, 0px);
+    transform: rotate(45deg) translate(5px, 0);
   }
 }
 
@@ -109,8 +109,7 @@ header ul {
 
 @keyframes hamburger1 {
   from {
-    
-    transform: rotate(45deg) translate(5px, 0px);
+    transform: rotate(45deg) translate(5px, 0);
   }
 
   to {
@@ -239,7 +238,7 @@ section h1 {
   display: none;
   padding: 0 10px;
   border-radius: 7px;
-  box-shadow: 0 0 10px #00000033;
+  box-shadow: 0 0 10px #0003;
 }
 
 .error {

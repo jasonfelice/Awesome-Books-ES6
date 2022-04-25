@@ -13,10 +13,10 @@ It uses SPA (Single-page application) for the following pages:
 - javaScript
 
 ## Live Demo
-[Live Demo Link](#)
+[Live Demo Link](https://jasonfelice.github.io/Awesome-Books-ES6/)
 
 To get a local copy up and running follow these simple example steps.
-- Copy this [link](#)
+- Copy this [link](https://github.com/jasonfelice/Awesome-Books-ES6)
 - Open the terminal
 - Run "git clone" and paste the link
 - Open this folder in your code editor

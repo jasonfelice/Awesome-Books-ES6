@@ -2,7 +2,7 @@ import navlinks from './modules/navigation.js';
 import { addButton, inputTitle, inputAuthor } from './modules/form-component.js';
 import Book from './modules/Books.js';
 import updateBooks from './modules/update-books.js';
-import { DateTime } from "./modules/luxon.js";
+import { DateTime } from './modules/luxon.js';
 
 const errorMessage = document.querySelector('.message-prompt');
 const now = DateTime.now();
@@ -23,7 +23,7 @@ if (Book.booksArray.length > 0) {
   }
 }
 
-hamButton.addEventListener('click', (e) => {
+hamButton.addEventListener('click', () => {
   hamButton.classList.toggle('cross');
   hamButton.classList.toggle('hamburger');
   document.querySelector('.mobile-nav').classList.toggle('disappear');
@@ -34,11 +34,10 @@ addButton.addEventListener('click', () => {
     const currentObj = new Book(inputTitle.value, inputAuthor.value);
     currentObj.addBook();
     updateBooks();
-    errorMessage.textContent = "The book has been added!";
+    errorMessage.textContent = 'The book has been added!';
     errorMessage.classList.add('success');
-  }
-  else if (!inputTitle.value && !inputAuthor.value) {
-    errorMessage.textContent = "Please fill the form!";
+  } else if (!inputTitle.value && !inputAuthor.value) {
+    errorMessage.textContent = 'Please fill the form!';
     errorMessage.classList.add('error');
   }
 });
