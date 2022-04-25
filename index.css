@@ -40,10 +40,6 @@ header ul {
 
 /* Mobile Navigation */
 
-.mobile-nav {
-  display: none;
-}
-
 .hamburger-button {
   display: none;
   flex-direction: column;
@@ -293,4 +289,10 @@ footer {
 
 footer .logo {
   font-size: 1.5rem;
+}
+
+/* Utility */
+
+.disappear {
+  display: none;
 }
