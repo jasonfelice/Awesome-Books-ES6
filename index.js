@@ -2,6 +2,11 @@ import navlinks from './modules/navigation.js';
 import {addButton, inputTitle, inputAuthor} from './modules/form-component.js';
 import Book from './modules/Books.js';
 import updateBooks from './modules/update-books.js';
+import { DateTime } from "./modules/luxon.js";
+
+const now = DateTime.now();
+const date = document.querySelector('.date');
+date.textContent = now.toLocaleString(DateTime.DATETIME_MED) ;
 
 navlinks();
 
