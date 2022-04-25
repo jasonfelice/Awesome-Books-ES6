@@ -1,14 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     <link rel="stylesheet" href="index.css">
-    <script src="index.js" defer></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="media.css">
+    <script src="index.js" type="module"></script>
+    <title>Awesome Books - Made with ES6</title>
 </head>
+
 <body>
-    
+    <header>
+        <a class="logo" href="#">Awesome Books</a>
+        <nav class="desktop-nav">
+            <ul>
+                <li><a class="list-button" href="#">List</a></li>
+                <li><a class="add-book-button" href="#">Add New</a></li>
+                <li><a class="contact-button" href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <nav class="mobile-nav disappear">
+            <ul>
+                <li><a class="list-button" href="#">List</a></li>
+                <li><a class="add-book-button" href="#">Add New</a></li>
+                <li><a class="contact-button" href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger-button hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <main>
+        <section id="book-list">
+            <div class="heading">
+            <h1>All Awesome Books</h1>
+            <span class="date">Date</span>
+        </div>
+            <div class="books-wrapper">
+            </div>
+        </section>
+        <section id="ADD">
+            <h1>Add a new book</h1>
+            <div class="add-books">
+                <input id="title" type="text" placeholder="Title">
+                <input id="author" type="text" placeholder="Author">
+                <button type="button" id="add-book">Add</button>
+                <span class="message-prompt">This is an error Message</span>
+            </div>
+        </section>
+        <section id="contact">
+            <h1>Contact Information</h1>
+            <div class="contact-me">
+                <p>If you have any questions or you just want to say Hello, feel free to reach out!</p>
+                <span>email: jasonfleice0@gmail.com</span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a class="logo" href="#">Awesome Books</a>
+        <span>&#169; Copyright 2022</span>
+    </footer>
 </body>
+
 </html>

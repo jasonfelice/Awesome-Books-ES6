@@ -1,0 +1,57 @@
+@media screen and (max-width: 767px) {
+  header {
+    padding: 0.2rem 2rem;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .hamburger-button {
+    display: flex;
+  }
+
+  .mobile-nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: rgb(3, 22, 85);
+    width: 25%;
+    height: 100vh;
+    padding: 1rem;
+    padding-top: 5rem;
+    animation: 0.5s ease-in forwards;
+  }
+
+  .mobile-nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mobile-nav ul a {
+    color: #fff;
+  }
+
+  .add-books {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .logo {
+    font-size: 2rem;
+  }
+
+  .date {
+    align-self: center;
+    margin: 0;
+  }
+
+  section h1 {
+    font-size: 2rem;
+  }
+
+  .add-books {
+    width: 80%;
+  }
+}
