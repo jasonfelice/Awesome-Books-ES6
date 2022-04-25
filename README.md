@@ -1,6 +1,6 @@
 # Project - Awesome Books ES6
 
-<!-- ![Preview](#) -->
+![Preview](images/preview/preview.jpg)
 It uses SPA (Single-page application) for the following pages:
 1. List
 2. Add Book
@@ -38,9 +38,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Monitor screen vector created by [rawpixel.com - www.freepik.com](https://www.freepik.com/vectors/monitor-screen)
 
 ## 📝 License
 
