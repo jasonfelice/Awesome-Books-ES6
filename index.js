@@ -36,6 +36,8 @@ addButton.addEventListener('click', () => {
     updateBooks();
     errorMessage.textContent = 'The book has been added!';
     errorMessage.classList.add('success');
+    inputTitle.value = '';
+    inputAuthor.value = '';
   } else if (!inputTitle.value && !inputAuthor.value) {
     errorMessage.textContent = 'Please fill the form!';
     errorMessage.classList.add('error');
