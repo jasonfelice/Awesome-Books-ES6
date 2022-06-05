@@ -12,6 +12,14 @@
   --supporting: #b6ddbe;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
 a {
   text-decoration: none;
 }
