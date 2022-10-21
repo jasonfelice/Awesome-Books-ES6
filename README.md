@@ -28,7 +28,7 @@ To get a local copy up and running follow these simple example steps.
 👤 **Author1**
 
 - GitHub: [@jasonfelice](https://github.com/jasonfelice)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jason-felice-11a5a622b/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jake-felice/)
 
 ## 🤝 Contributing
 
